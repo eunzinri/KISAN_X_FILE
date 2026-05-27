@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="84" viewBox="0 0 380 84" role="img" aria-labelledby="kxfTitle">
+  <title id="kxfTitle">기산엑스파일</title>
+
+  <path d="M0 5 H380" stroke="#22201d" stroke-width="0.6"/>
+
+  <text x="190" y="18" text-anchor="middle"
+        fill="#5f574c"
+        font-family="'Noto Serif KR', 'Apple SD Gothic Neo', Georgia, serif"
+        font-size="8.6" font-weight="800" letter-spacing="3.6">BUSINESS · INDUSTRY DOSSIER</text>
+
+  <path d="M0 24 H380" stroke="#22201d" stroke-width="0.6"/>
+
+  <text x="190" y="65" text-anchor="middle"
+        font-family="'Noto Serif KR', 'Apple SD Gothic Neo', ui-serif, Georgia, serif"
+        font-size="42" font-weight="900" letter-spacing="-0.4"><tspan fill="#22201d">기산 </tspan><tspan fill="#9a4f26">X</tspan><tspan fill="#22201d"> 파일</tspan></text>
+
+  <path d="M0 75 H380" stroke="#22201d" stroke-width="2.6"/>
+  <path d="M0 81 H380" stroke="#22201d" stroke-width="0.5"/>
+</svg>
