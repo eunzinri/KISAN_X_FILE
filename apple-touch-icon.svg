@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180" role="img" aria-label="기산엑스파일">
+  <path d="M22 50 H80 L100 70 H158 V152 H22 Z" fill="#9a4f26"/>
+  <line x1="42" y1="98" x2="138" y2="98" stroke="#f7f2e8" stroke-width="8" stroke-linecap="square"/>
+  <line x1="42" y1="118" x2="124" y2="118" stroke="#f7f2e8" stroke-width="7" stroke-linecap="square"/>
+  <line x1="42" y1="138" x2="110" y2="138" stroke="#f7f2e8" stroke-width="7" stroke-linecap="square"/>
+</svg>
