@@ -3,15 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32.png">
     <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#9a4f26">
     <title>기산엑스파일 | 기업과 산업을 설명하는 비즈니스 인사이트 블로그</title>
     <meta name="description" content="테크, 방산, 에너지, 바이오 산업과 기업의 사업 구조를 중립적으로 설명하는 산업·기업 정보 블로그입니다.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://gisanblog.co.kr/">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="기산엑스파일">
     <meta property="og:url" content="https://gisanblog.co.kr/">
     <meta property="og:title" content="기산엑스파일 | 기업과 산업을 설명하는 비즈니스 인사이트 블로그">
     <meta property="og:description" content="기업이 무엇을 만들고 어떤 산업에 속하는지 차분하게 해설하는 산업 정보 사이트입니다.">
@@ -24,17 +29,63 @@
             "@type": "Organization",
             "@id": "https://gisanblog.co.kr/#organization",
             "name": "기산엑스파일",
+            "alternateName": ["Gisan X File", "gisanblog.co.kr"],
             "url": "https://gisanblog.co.kr/",
-            "logo": "https://gisanblog.co.kr/assets/kisan-xfile-logo.svg"
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://gisanblog.co.kr/apple-touch-icon.png",
+              "width": 180,
+              "height": 180
+            }
           },
           {
             "@type": "WebSite",
             "@id": "https://gisanblog.co.kr/#website",
             "url": "https://gisanblog.co.kr/",
             "name": "기산엑스파일",
+            "alternateName": ["Gisanblog", "gisanblog.co.kr", "Gisan X File"],
             "description": "기업과 산업의 사업 구조를 출처 기반으로 설명하는 비즈니스 인사이트 블로그입니다.",
             "publisher": {"@id": "https://gisanblog.co.kr/#organization"},
             "inLanguage": "ko-KR"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "@id": "https://gisanblog.co.kr/#site-navigation",
+            "name": ["Tech & AI", "Defense", "Energy", "Bio", "Industry Trends", "Company Files", "About"],
+            "url": [
+              "https://gisanblog.co.kr/categories/tech-ai",
+              "https://gisanblog.co.kr/categories/defense-aerospace",
+              "https://gisanblog.co.kr/categories/energy-materials",
+              "https://gisanblog.co.kr/categories/healthcare-bio",
+              "https://gisanblog.co.kr/categories/industry-trends",
+              "https://gisanblog.co.kr/categories/company-files",
+              "https://gisanblog.co.kr/about"
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://gisanblog.co.kr/#latest-posts",
+            "name": "기산엑스파일 최신 글",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "QTREX Quantum(QTEX), 양자컴퓨터 테마가 붙은 초소형주를 어떻게 볼까",
+                "url": "https://gisanblog.co.kr/posts/qtrex-quantum-qtex-ticker-change"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI 데이터센터 전력망 ESS, 이차전지 반등의 새 트리거",
+                "url": "https://gisanblog.co.kr/posts/battery-ess-ai-data-center-grid"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "스노우플레이크(SNOW), AI 데이터 클라우드 반전의 신호일까",
+                "url": "https://gisanblog.co.kr/posts/snowflake-snow-ai-data-cloud-earnings"
+              }
+            ]
           }
         ]
       }
