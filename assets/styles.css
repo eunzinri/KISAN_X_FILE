@@ -626,6 +626,34 @@ h4 {
   padding: 1.1rem 1.2rem;
 }
 
+.fact-table {
+  width: 100%;
+  margin: 1.8rem 0;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.fact-table th,
+.fact-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.fact-table th {
+  background: #f2f0e8;
+  font-weight: 800;
+}
+
+.fact-table tr:last-child td {
+  border-bottom: 0;
+}
+
 .faq-item {
   border-top: 1px solid var(--line);
   padding-top: 1rem;
@@ -665,6 +693,25 @@ h4 {
   padding: 1rem;
   color: #4f421b;
   font-size: 0.95rem;
+}
+
+.author-box {
+  margin-top: 2.5rem;
+  border: 1px solid rgba(31, 107, 84, 0.28);
+  background: #eef6f1;
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.author-box strong {
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+.author-box p {
+  margin: 0.35rem 0 0;
+  color: var(--charcoal);
+  font-size: 0.94rem;
 }
 
 .source-list {
@@ -810,5 +857,10 @@ h4 {
 
   .footer-grid {
     display: grid;
+  }
+
+  .fact-table {
+    display: block;
+    overflow-x: auto;
   }
 }
